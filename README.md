@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：72 项独立资产 · 12 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：74 项独立资产 · 13 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -26,9 +26,10 @@
 | [10_Bulk_Mixing_2_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/10_Bulk_Mixing_2_Assets.zip) | 螺旋计量料斗、升降搅拌机 | 2 |
 | [11_Sheet_Forming_2_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/11_Sheet_Forming_2_Assets.zip) | 手动卷板机、立式压筋机 | 2 |
 | [12_Tube_Fabrication_2_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/12_Tube_Fabrication_2_Assets.zip) | 台式管材开槽机、旋转拉弯机 | 2 |
-| **合计** | **不含未发布的制作中资产** | **72** |
+| [13_Maintenance_2_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/13_Maintenance_2_Assets.zip) | 优化版工业吸尘机（74,008 三角面）、气管卷盘 | 2 |
+| **合计** | **不含未发布的制作中资产** | **74** |
 
-**不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库为私有，下载需要登录获授权的 GitHub 账号；未获授权时可能显示 404。
+**不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
 ## 文件与材质
 
@@ -43,7 +44,7 @@
 
 ## 分类预览
 
-以下为部分代表资产的多方向预览，不等于全部 72 项的完整清单。点击图片可查看大图。
+以下为部分代表资产的多方向预览，不等于全部 74 项的完整清单。点击图片可查看大图。
 
 ### 机加工与检测
 ![CNC 设备、工作台、视觉检测](previews/machining.jpg)
@@ -90,6 +91,11 @@
 ### 管材加工
 ![台式管材开槽机与旋转拉弯机](previews/tube-fabrication.jpg)
 
+### 维护设备
+该批次的实际渲染预览随第 13 包提供。
+
+吸尘机采用经过外观核查的软管几何优化版，74,008 三角面；不含被淘汰的激进减面实验，不代表自动 LOD 或浏览器性能保证。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -115,4 +121,4 @@ Releases/       GitHub 下载入口，不是仓库内目录
   v1.0.0        编号资产 ZIP 和校验附件
 ```
 
-本仓库保持私有。后续批次只有实际完成上传后才纳入已发布数量；不要将制作计划当作已交付资产。
+本仓库当前为公开。后续批次只有实际完成上传后才纳入已发布数量；不要将制作计划当作已交付资产。
