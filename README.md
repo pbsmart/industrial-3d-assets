@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：122 项独立资产 · 55 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：123 项独立资产 · 56 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -69,7 +69,8 @@
 | [53_Rotary_Roller_Transfer_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/53_Rotary_Roller_Transfer_1_Asset.zip) | 回转辊筒托盘转运台 | 1 |
 | [54_Pallet_Magazine_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/54_Pallet_Magazine_1_Asset.zip) | 自动托盘堆栈料仓 | 1 |
 | [55_Cleated_Incline_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/55_Cleated_Incline_1_Asset.zip) | 挡板爬坡皮带提升机 | 1 |
-| **合计** | **不含未发布的制作中资产** | **122** |
+| [56_Laser_Marking_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/56_Laser_Marking_1_Asset.zip) | 封闭式激光打标工作站 | 1 |
+| **合计** | **不含未发布的制作中资产** | **123** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -341,6 +342,11 @@
 
 静态输送姿态，挡板仅在直线带段呈现，未制作绕滚筒铰接或运动动画。无防护、输送能力、驱动选型或产品接触认证；通用原创材质而非扫描表面。
 
+### 激光打标
+![封闭式激光打标工作站实际渲染](previews/laser-marking.jpg)
+
+前门升起的静态检修展示，激光停用且无光束；无光学仿真、互锁逻辑或激光安全认证。绿色观察窗仅为视觉表示，不代表合格防护材料；夹具孔为浅层深色几何标记而非贯通钻孔。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -376,4 +382,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–55 包已内置完整 MIT LICENSE。
+第 14–56 包已内置完整 MIT LICENSE。
