@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：139 项独立资产 · 72 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：140 项独立资产 · 73 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -86,7 +86,8 @@
 | [70_Collaborative_Arm_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/70_Collaborative_Arm_1_Asset.zip) | 紧凑六轴协作机械臂外观资产 | 1 |
 | [71_Mobile_Manipulator_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/71_Mobile_Manipulator_1_Asset.zip) | 移动操作机器人整机（复用自有六轴臂） | 1 |
 | [72_Bin_Tipper_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/72_Bin_Tipper_1_Asset.zip) | 液压散料箱翻转上料站 | 1 |
-| **合计** | **不含未发布的制作中资产** | **139** |
+| [73_Lift_Gate_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/73_Lift_Gate_1_Asset.zip) | 翻起通行式皮带输送机 | 1 |
+| **合计** | **不含未发布的制作中资产** | **140** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -450,6 +451,12 @@ X/Y/Z 编辑组表示预期轴向，但非完整运动绑定；针头停在试�
 
 锚固底座、双枢轴塔、托架、开口加筋料箱、夹持件、双液压缸与液压站。直立装料/维护静态姿态；托架枢轴可编辑但无动画或液压约束绑定，软管不变形。未验证载荷、稳定性、全翻转空间、压力或结构安全；不含防护围栏联锁及下游接料设备，非运行安装设计。
 
+### 翻起通行输送
+
+![翻起通行式皮带输送机实际渲染](previews/lift-gate.jpg)
+
+短入料带与1.4米翻起带段，展示60度抬起的停机通行/检修姿态；含锚固支架、气撑、铰链、电机、张紧螺杆与操作件。枢轴组可编辑，但气撑和线缆静态，无约束绑定、皮带动画、PLC或已测联锁；不代表认证通道净空、疏散方案、载荷或全转动碰撞验证。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -485,4 +492,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–72 包已内置完整 MIT LICENSE。
+第 14–73 包已内置完整 MIT LICENSE。
