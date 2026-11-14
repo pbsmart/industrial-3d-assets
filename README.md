@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：138 项独立资产 · 71 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：139 项独立资产 · 72 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -85,7 +85,8 @@
 | [69_PCB_Loader_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/69_PCB_Loader_1_Asset.zip) | 单料框 PCB 上板机 | 1 |
 | [70_Collaborative_Arm_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/70_Collaborative_Arm_1_Asset.zip) | 紧凑六轴协作机械臂外观资产 | 1 |
 | [71_Mobile_Manipulator_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/71_Mobile_Manipulator_1_Asset.zip) | 移动操作机器人整机（复用自有六轴臂） | 1 |
-| **合计** | **不含未发布的制作中资产** | **138** |
+| [72_Bin_Tipper_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/72_Bin_Tipper_1_Asset.zip) | 液压散料箱翻转上料站 | 1 |
+| **合计** | **不含未发布的制作中资产** | **139** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -443,6 +444,12 @@ X/Y/Z 编辑组表示预期轴向，但非完整运动绑定；针头停在试�
 
 新差速移动底盘与自有六轴机械臂复用组成的整机配置，并非第二款独立新设计机械臂。附 source_components 保证重建输入完整。静态行驶/检查姿态，支撑脚离地15毫米；无自主导航、IK、动态稳定性、载荷重心或安全协作认证，原臂关节小角度测试不验证组合整机碰撞或稳定性。
 
+### 散料箱翻转上料
+
+![液压散料箱翻转上料站实际渲染](previews/bin-tipper.jpg)
+
+锚固底座、双枢轴塔、托架、开口加筋料箱、夹持件、双液压缸与液压站。直立装料/维护静态姿态；托架枢轴可编辑但无动画或液压约束绑定，软管不变形。未验证载荷、稳定性、全翻转空间、压力或结构安全；不含防护围栏联锁及下游接料设备，非运行安装设计。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -478,4 +485,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–71 包已内置完整 MIT LICENSE。
+第 14–72 包已内置完整 MIT LICENSE。
