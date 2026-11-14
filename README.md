@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：111 项独立资产 · 44 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：112 项独立资产 · 45 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -58,7 +58,8 @@
 | [42_Tensile_Tester_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/42_Tensile_Tester_1_Asset.zip) | 单柱拉力试验机 | 1 |
 | [43_Shrink_Fit_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/43_Shrink_Fit_1_Asset.zip) | 感应刀柄热缩装配站 | 1 |
 | [44_Band_Sealer_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/44_Band_Sealer_1_Asset.zip) | 立式袋装连续封口机 | 1 |
-| **合计** | **不含未发布的制作中资产** | **111** |
+| [45_Spin_Dryer_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/45_Spin_Dryer_1_Asset.zip) | 批次零件离心干燥机 | 1 |
+| **合计** | **不含未发布的制作中资产** | **112** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -275,6 +276,11 @@
 
 打开检修罩的静态展示，不是运行姿态；含输送带、双封口带、加热冷却块和示例包装袋，无热封、薄膜变形或传送动画，不代表密封性能及安全认证。
 
+### 离心干燥
+![批次零件离心干燥机实际渲染](previews/spin-dryer.jpg)
+
+开盖检修展示姿态，不代表运行状态；盖体铰链和可拆篮筐可独立编辑，不含动画、安全仿真或离心设备认证。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -310,4 +316,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–44 包已内置完整 MIT LICENSE。
+第 14–45 包已内置完整 MIT LICENSE。
