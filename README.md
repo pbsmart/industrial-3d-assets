@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：141 项独立资产 · 74 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：142 项独立资产 · 75 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -88,7 +88,8 @@
 | [72_Bin_Tipper_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/72_Bin_Tipper_1_Asset.zip) | 液压散料箱翻转上料站 | 1 |
 | [73_Lift_Gate_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/73_Lift_Gate_1_Asset.zip) | 翻起通行式皮带输送机 | 1 |
 | [74_Vacuum_Feeder_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/74_Vacuum_Feeder_1_Asset.zip) | 真空粉料输送上料站 | 1 |
-| **合计** | **不含未发布的制作中资产** | **141** |
+| [75_Robot_Linear_Axis_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/75_Robot_Linear_Axis_1_Asset.zip) | 七轴直线轨道机器人整机（复用自有六轴臂） | 1 |
+| **合计** | **不含未发布的制作中资产** | **142** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -464,6 +465,12 @@ X/Y/Z 编辑组表示预期轴向，但非完整运动绑定；针头停在试�
 
 接收过滤筒、锥形卸料段、气动真空头、阀执行器、支架、电控与调压表、输送软管、吸料枪和源料桶/接料容器。空载检视静态姿态，阀关闭；内部过滤与气控简化，无粉料仿真、真空气路计算、动画或性能压力评级。不代表卫生、防尘、ATEX或食品接触认证，也非已验证安装设计。
 
+### 机器人第七轴直线轨道
+
+![七轴直线轨道机器人整机（复用自有六轴臂）实际渲染](previews/robot-linear-axis.jpg)
+
+新建3.2米外部直线轴轨道，包含导轨滑块、齿条、伺服减速器、缓冲、开关、滑台与拖链槽，复用已有自有六轴臂及控制器，并非独立新设计机械臂。外部X移动组和六轴层级可编辑；仅静态中行程姿态，拖链、线缆与齿轮未联动，无IK、控制器集成、全行程碰撞、重复精度、承载或安全验证。附组件源文件。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -499,4 +506,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–74 包已内置完整 MIT LICENSE。
+第 14–75 包已内置完整 MIT LICENSE。
