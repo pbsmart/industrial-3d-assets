@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：120 项独立资产 · 53 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：121 项独立资产 · 54 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -67,6 +67,7 @@
 | [51_Delta_Cell_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/51_Delta_Cell_1_Asset.zip) | Delta 机器人分拣单元 | 1 |
 | [52_Pallet_Lift_AMR_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/52_Pallet_Lift_AMR_1_Asset.zip) | 双轨托盘顶升 AMR | 1 |
 | [53_Rotary_Roller_Transfer_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/53_Rotary_Roller_Transfer_1_Asset.zip) | 回转辊筒托盘转运台 | 1 |
+| [54_Pallet_Magazine_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/54_Pallet_Magazine_1_Asset.zip) | 自动托盘堆栈料仓 | 1 |
 | **合计** | **不含未发布的制作中资产** | **119** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
@@ -329,6 +330,11 @@
 
 静态空载转运台，旋转组件单独分组；无输送动画、控制系统、额定载荷或已验证的旋转包络，电缆服务环未做变形绑定，非工程或安全验证模型。
 
+### 托盘堆栈料仓
+![自动托盘堆栈料仓实际渲染](previews/pallet-magazine.jpg)
+
+空载升起的检修展示姿态，支承指缩回，三个通用托盘均落地且可独立编辑。静态概念模型，无堆垛逻辑、经过验证的升降保持机构、碰撞仿真或认证防护。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -364,4 +370,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–53 包已内置完整 MIT LICENSE。
+第 14–54 包已内置完整 MIT LICENSE。
