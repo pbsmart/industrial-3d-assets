@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：64 项独立资产 · 8 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：66 项独立资产 · 9 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -22,7 +22,8 @@
 | [06_Plant_Utilities.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/06_Plant_Utilities.zip) | 泵组、储气罐、空压机、冷水机、除尘器、风机、管线桥架等 | 10 |
 | [07_Additional_10_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/07_Additional_10_Assets.zip) | 末端夹具与焊接单元 3 项、厂务模块 3 项、输送装卸模块 4 项 | 10 |
 | [08_Finishing_Process_Pressing_Welding_9_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/08_Finishing_Process_Pressing_Welding_9_Assets.zip) | 表面处理 3 项、清洗/送料 2 项、压力设备 2 项、焊接定位 2 项 | 9 |
-| **合计** | **不含未发布的制作中资产** | **64** |
+| [09_Workholding_2_Assets.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/09_Workholding_2_Assets.zip) | 精密机用虎钳、伺服分度台 | 2 |
+| **合计** | **不含未发布的制作中资产** | **66** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库为私有，下载需要登录获授权的 GitHub 账号；未获授权时可能显示 404。
 
@@ -39,7 +40,7 @@
 
 ## 分类预览
 
-以下为部分代表资产的多方向预览，不等于全部 64 项的完整清单。点击图片可查看大图。
+以下为部分代表资产的多方向预览，不等于全部 66 项的完整清单。点击图片可查看大图。
 
 ### 机加工与检测
 ![CNC 设备、工作台、视觉检测](previews/machining.jpg)
@@ -73,6 +74,9 @@
 
 ### 焊接定位
 ![焊接变位机与管件滚轮架](previews/weld-positioning.jpg)
+
+### 工件夹持
+![精密机用虎钳与伺服分度台](previews/workholding.jpg)
 
 ## 使用建议
 
