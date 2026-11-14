@@ -2,7 +2,7 @@
 
 面向工厂布局、产线演示与工业场景可视化的分类资产。包含机械臂、AMR / AGV、输送设备、机加工设备、仓储、电气安全及厂务配套。
 
-**当前已发布：143 项独立资产 · 76 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
+**当前已发布：144 项独立资产 · 77 个完整 ZIP · Blender 源文件 + GLB + 材质贴图。** 统计按独立资产计数，不将同一模型的不同视角、格式或旧修订重复计入。更新日期：2026-11-14。
 
 > 当前定位为偏写实的场景级资产，适合中距离布局展示。不是照片级扫描资产、精确制造 CAD 或可直接运行的设备仿真。下面均为实际模型渲染图，不是外部参考照片；最终显示受查看器灯光与色彩管理影响。
 
@@ -90,7 +90,8 @@
 | [74_Vacuum_Feeder_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/74_Vacuum_Feeder_1_Asset.zip) | 真空粉料输送上料站 | 1 |
 | [75_Robot_Linear_Axis_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/75_Robot_Linear_Axis_1_Asset.zip) | 七轴直线轨道机器人整机（复用自有六轴臂） | 1 |
 | [76_PCB_Inverter_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/76_PCB_Inverter_1_Asset.zip) | PCB 翻板机 | 1 |
-| **合计** | **不含未发布的制作中资产** | **143** |
+| [77_Roll_Carrier_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/77_Roll_Carrier_1_Asset.zip) | 卧式卷料托架 AMR（自有底盘系列复用） | 1 |
+| **合计** | **不含未发布的制作中资产** | **144** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
@@ -478,6 +479,12 @@ X/Y/Z 编辑组表示预期轴向，但非完整运动绑定；针头停在试�
 
 固定进出边带与耳轴翻转托架、调宽导向、边夹、空白示例板及伺服减速器。25度停机检修姿态，前后可拆护板未展示；翻转Y组仅供编辑，无动画约束、联动夹紧、全扫掠碰撞或PLC/Hermes/SMEMA功能，不代表安全运行配置或认证设备。
 
+### 卷料搬运 AMR
+
+![卧式卷料托架 AMR（自有底盘系列复用）实际渲染](previews/roll-carrier.jpg)
+
+复用自有差速底盘系列，新增导向升降V托架、衬垫、轴向挡块及可移除纸卷，不是独立新导航或驱动系统。托架与纸卷可分组编辑，仅静态低位展示，无升降约束、导航、载荷/重心稳定性计算或扫描检测功能；需外部装载，无自动拾取机构，卷层为视觉表示而非真实卷绕仿真。
+
 ## 使用建议
 
 1. 下载编号 ZIP 并完整解压；需要继续精修时打开 `.blend`，需要在场景引擎中使用时导入 `.glb`。首次打开源文件时无需运行附带脚本。
@@ -513,4 +520,4 @@ Copyright (c) 2026 PBSMART。仓库原创模型（含 Blender 源文件）、GLB
 
 已发布的 01–13 号 Release ZIP 未内置本次新增的 LICENSE 文件；使用或再分发这些资产时，请另行下载并随附仓库根目录的 LICENSE。
 
-第 14–76 包已内置完整 MIT LICENSE。
+第 14–77 包已内置完整 MIT LICENSE。
