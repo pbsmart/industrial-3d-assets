@@ -68,7 +68,7 @@
 | [52_Pallet_Lift_AMR_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/52_Pallet_Lift_AMR_1_Asset.zip) | 双轨托盘顶升 AMR | 1 |
 | [53_Rotary_Roller_Transfer_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/53_Rotary_Roller_Transfer_1_Asset.zip) | 回转辊筒托盘转运台 | 1 |
 | [54_Pallet_Magazine_1_Asset.zip](https://github.com/pbsmart/industrial-3d-assets/releases/download/v1.0.0/54_Pallet_Magazine_1_Asset.zip) | 自动托盘堆栈料仓 | 1 |
-| **合计** | **不含未发布的制作中资产** | **119** |
+| **合计** | **不含未发布的制作中资产** | **121** |
 
 **不要把 GitHub 自动生成的 `Source code (zip)` 当作完整模型包。** 仓库正文用于说明和预览，大型模型在 Release 附件中。仓库当前为公开，编号资产包可通过 Release 下载。
 
